@@ -13,7 +13,7 @@ namespace Azure4Alexa.Alexa
         // It's bad practice to include the actual AppId in code,
         // but we'll do so here as to make life easy for you.
 
-        public static string AppId = "";
+        public static string AppId = "amzn1.ask.skill.d22efca0-1dfa-4adc-baad-e96fd6f88443";
 
         // the value of AppName has no correspondence to what you have registered in Amazon
         // we just store it here because it's useful
