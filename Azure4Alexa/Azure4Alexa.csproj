@@ -126,6 +126,7 @@
     <Compile Include="Outlook\Calendar.cs" />
     <Compile Include="Outlook\Mail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RockPaperScissors\RockPaperScissors.cs" />
     <Compile Include="Tfl\Status.cs" />
   </ItemGroup>
   <ItemGroup>

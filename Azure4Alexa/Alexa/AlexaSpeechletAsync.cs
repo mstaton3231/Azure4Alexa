@@ -190,8 +190,8 @@ namespace Azure4Alexa.Alexa
                 // did you forget to implement an intent?
                 // just send the user to the intent-less utterance
 
-                case ("GetRockPaperScissorsIntent"):
-                    return await Tfl.Status.GetResults(session, httpClient);
+                case ("GetRockPaperScissorsIntent"):                    
+                    return await RockPaperScissors.RockPaperScissors.GetResults(session, httpClient);
 
                 default:
                     return await Task.FromResult<SpeechletResponse>(GetOnLaunchAsyncResult(session));
